@@ -71,6 +71,7 @@ const server = http.createServer((request, response) => {
         response.end();
     })
 
+    
     // Нам не нужно писать response.end() вручную.
     // pipe() сам закроет ответ, когда файл кончится.
 });
